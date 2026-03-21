@@ -1,13 +1,24 @@
-node {
+pipeline {
+agent any
+
+stages {
     stage('Checkout Info') {
-        echo 'Code pulled from GitHub'
+        steps {
+            echo 'Code pulled from GitHub'
+        }
     }
 
     stage('Display File') {
-        bat 'type app.txt'
+        steps {
+            bat 'type app.txt'
+        }
     }
 
     stage('Build Step') {
-        echo 'Simulating build process'
+        steps {
+            echo 'Simulating build process'
+        }
     }
+}
+
 }
