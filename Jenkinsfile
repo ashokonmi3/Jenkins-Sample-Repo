@@ -1,19 +1,13 @@
-stages {
+node {
     stage('Checkout Info') {
-        steps {
-            echo 'Code pulled from GitHub'
-        }
+        echo 'Code pulled from GitHub'
     }
 
     stage('Display File') {
-        steps {
-            bat 'type app.txt'
-        }
+        bat 'type app.txt'
     }
 
     stage('Build Step') {
-        steps {
-            echo 'Simulating build process'
-        }
+        echo 'Simulating build process'
     }
 }
