@@ -35,7 +35,17 @@
     }
 }
 */
-//======================================
+/*======================================
+Pre requisit 
+Docker installation 
+sudo yum install docker -y
+sudo systemctl start docker
+sudo usermod -aG docker jenkins
+Git installation 
+sudo yum update -y
+sudo yum install git -y
+===========================================*/
+
 pipeline {
     agent any
 
