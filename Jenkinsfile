@@ -50,7 +50,7 @@ pipeline {
             steps {
                         cleanWs()
 
-                git branch: 'main', url: 'https://github.com/your-repo/Jenkins-Sample-Repo.git'
+                git branch: 'main', url: 'https://github.com/ashokonmi3/Jenkins-Sample-Repo.git'
             }
         }
 
