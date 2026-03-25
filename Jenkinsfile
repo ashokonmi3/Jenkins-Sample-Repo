@@ -1,4 +1,4 @@
-/* pipeline {
+ pipeline {
     agent any
 
     stages {
@@ -34,7 +34,7 @@
         }
     }
 }
-*/
+
 /*======================================
 Pre requisit 
 Docker installation 
@@ -46,7 +46,7 @@ sudo yum update -y
 sudo yum install git -y
 ===========================================*/
 
-pipeline {
+/* pipeline {
     agent any
 
     environment {
@@ -105,3 +105,4 @@ pipeline {
         }
     }
 }
+*/
