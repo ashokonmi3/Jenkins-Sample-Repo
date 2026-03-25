@@ -34,7 +34,7 @@
         }
     }
 }
-*/
+
 /*======================================
 Pre requisit 
 Docker installation 
