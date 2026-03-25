@@ -1,4 +1,4 @@
-/* pipeline {
+ pipeline {
     agent any
 
     stages {
@@ -45,7 +45,7 @@ Git installation
 sudo yum update -y
 sudo yum install git -y
 ===========================================*/
- pipeline {
+ /* pipeline {
     agent any
 
     environment {
@@ -104,4 +104,4 @@ sudo yum install git -y
         }
     }
 }
-
+*/
