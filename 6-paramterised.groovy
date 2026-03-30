@@ -1,7 +1,7 @@
 pipeline{
     agent any
     parameters {
-        string defaultValue: 'Karan', description: 'Enter the vale', name: 'FirstName'
+        string defaultValue: 'Ashok', description: 'Enter the vale', name: 'FirstName'
     }
     stages{
         stage('Parameters Job'){

@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        Name = "Karan"
+        Name = "Ashok"
     }
     stages{
         stage('usage of env variables'){
